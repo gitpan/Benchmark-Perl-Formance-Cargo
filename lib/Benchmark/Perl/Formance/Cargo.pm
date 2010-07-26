@@ -3,9 +3,7 @@ package Benchmark::Perl::Formance::Cargo;
 use warnings;
 use strict;
 
-use 5.005; # I don't really know yet, but that's the goal
-
-use vars qw( $VERSION ); $VERSION = '0.01';
+use vars qw( $VERSION ); $VERSION = '0.02';
 
 =head1 NAME
 
@@ -64,7 +62,7 @@ ANDK for the hint to decouple this from Benchmark::Perl::Formance.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Steffen Schwigon.
+Copyright 2008-2010 Steffen Schwigon.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
