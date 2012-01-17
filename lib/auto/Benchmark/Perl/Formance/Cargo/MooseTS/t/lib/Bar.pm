@@ -1,5 +1,7 @@
 
-package Bar;
+package
+  # hide from PAUSE indexer
+  Bar;
 use Moose;
 use Moose::Util::TypeConstraints;
 

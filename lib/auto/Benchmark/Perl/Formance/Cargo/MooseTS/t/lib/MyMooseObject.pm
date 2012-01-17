@@ -1,4 +1,6 @@
-package MyMooseObject;
+package
+  # hide from PAUSE indexer
+  MyMooseObject;
 
 use strict;
 use warnings;

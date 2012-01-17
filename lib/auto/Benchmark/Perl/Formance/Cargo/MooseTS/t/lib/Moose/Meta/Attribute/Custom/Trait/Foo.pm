@@ -1,4 +1,6 @@
-package Moose::Meta::Attribute::Custom::Trait::Foo;
+package
+  # hide from PAUSE indexer
+  Moose::Meta::Attribute::Custom::Trait::Foo;
 
 use Moose::Role;
 

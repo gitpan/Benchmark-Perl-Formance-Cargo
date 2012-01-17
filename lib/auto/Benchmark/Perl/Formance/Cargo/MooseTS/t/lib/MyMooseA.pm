@@ -1,4 +1,6 @@
-package MyMooseA;
+package
+  # hide from PAUSE indexer
+  MyMooseA;
 
 use Moose;
 
