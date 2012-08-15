@@ -1,11 +1,11 @@
 package Benchmark::Perl::Formance::Cargo;
-# git description: 6c77919
+# git description: v0.05-1-g5916445
 
 BEGIN {
   $Benchmark::Perl::Formance::Cargo::AUTHORITY = 'cpan:SCHWIGON';
 }
 {
-  $Benchmark::Perl::Formance::Cargo::VERSION = '0.05';
+  $Benchmark::Perl::Formance::Cargo::VERSION = '0.06';
 }
 # ABSTRACK: PerlFormance - Invariant cargo files
 

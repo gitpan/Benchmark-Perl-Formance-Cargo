@@ -46,168 +46,168 @@
          "web" : "http://github.com/renormalist/Benchmark-Perl-Formance-Cargo"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
             "class" : "Dist::Zilla::Plugin::GatherDir",
-            "name" : "@SCHWIGON/@Basic/GatherDir",
+            "name" : "@Filter/@Basic/GatherDir",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::PruneCruft",
-            "name" : "@SCHWIGON/@Basic/PruneCruft",
+            "name" : "@Filter/@Basic/PruneCruft",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ManifestSkip",
-            "name" : "@SCHWIGON/@Basic/ManifestSkip",
+            "name" : "@Filter/@Basic/ManifestSkip",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaYAML",
-            "name" : "@SCHWIGON/@Basic/MetaYAML",
+            "name" : "@Filter/@Basic/MetaYAML",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::License",
-            "name" : "@SCHWIGON/@Basic/License",
+            "name" : "@Filter/@Basic/License",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::Readme",
-            "name" : "@SCHWIGON/@Basic/Readme",
+            "name" : "@Filter/@Basic/Readme",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExtraTests",
-            "name" : "@SCHWIGON/@Basic/ExtraTests",
+            "name" : "@Filter/@Basic/ExtraTests",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ExecDir",
-            "name" : "@SCHWIGON/@Basic/ExecDir",
+            "name" : "@Filter/@Basic/ExecDir",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ShareDir",
-            "name" : "@SCHWIGON/@Basic/ShareDir",
+            "name" : "@Filter/@Basic/ShareDir",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::MakeMaker",
-            "name" : "@SCHWIGON/@Basic/MakeMaker",
+            "name" : "@Filter/@Basic/MakeMaker",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::Manifest",
-            "name" : "@SCHWIGON/@Basic/Manifest",
+            "name" : "@Filter/@Basic/Manifest",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::TestRelease",
-            "name" : "@SCHWIGON/@Basic/TestRelease",
+            "name" : "@Filter/@Basic/TestRelease",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ConfirmRelease",
-            "name" : "@SCHWIGON/@Basic/ConfirmRelease",
-            "version" : "4.300020"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::UploadToCPAN",
-            "name" : "@SCHWIGON/@Basic/UploadToCPAN",
+            "name" : "@Filter/@Basic/ConfirmRelease",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaConfig",
-            "name" : "@SCHWIGON/MetaConfig",
+            "name" : "@Filter/MetaConfig",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaJSON",
-            "name" : "@SCHWIGON/MetaJSON",
+            "name" : "@Filter/MetaJSON",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::PkgVersion",
-            "name" : "@SCHWIGON/PkgVersion",
+            "name" : "@Filter/PkgVersion",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodSyntaxTests",
-            "name" : "@SCHWIGON/PodSyntaxTests",
+            "name" : "@Filter/PodSyntaxTests",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::MetaResources",
-            "name" : "@SCHWIGON/MetaResources",
+            "name" : "@Filter/MetaResources",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::Authority",
-            "name" : "@SCHWIGON/Authority",
+            "name" : "@Filter/Authority",
             "version" : "1.006"
          },
          {
             "class" : "Dist::Zilla::Plugin::EOLTests",
-            "name" : "@SCHWIGON/EOLTests",
+            "name" : "@Filter/EOLTests",
             "version" : "0.02"
          },
          {
             "class" : "Dist::Zilla::Plugin::PodWeaver",
-            "name" : "@SCHWIGON/PodWeaver",
+            "name" : "@Filter/PodWeaver",
             "version" : "3.101641"
          },
          {
             "class" : "Dist::Zilla::Plugin::AutoPrereqs",
-            "name" : "@SCHWIGON/AutoPrereqs",
+            "name" : "@Filter/AutoPrereqs",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Describe",
-            "name" : "@SCHWIGON/Git::Describe",
+            "name" : "@Filter/Git::Describe",
             "version" : "0.002"
          },
          {
             "class" : "Dist::Zilla::Plugin::CheckChangesHasContent",
-            "name" : "@SCHWIGON/CheckChangesHasContent",
+            "name" : "@Filter/CheckChangesHasContent",
             "version" : "0.005"
          },
          {
             "class" : "Dist::Zilla::Plugin::NextRelease",
-            "name" : "@SCHWIGON/NextRelease",
+            "name" : "@Filter/NextRelease",
             "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::CheckFor::CorrectBranch",
-            "name" : "@SCHWIGON/Git::CheckFor::CorrectBranch",
+            "name" : "@Filter/Git::CheckFor::CorrectBranch",
             "version" : "0.004"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::NextVersion",
-            "name" : "@SCHWIGON/Git::NextVersion",
+            "name" : "@Filter/Git::NextVersion",
             "version" : "1.121820"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Check",
-            "name" : "@SCHWIGON/@Git/Check",
+            "name" : "@Filter/@Git/Check",
             "version" : "1.121820"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Commit",
-            "name" : "@SCHWIGON/@Git/Commit",
+            "name" : "@Filter/@Git/Commit",
             "version" : "1.121820"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Tag",
-            "name" : "@SCHWIGON/@Git/Tag",
+            "name" : "@Filter/@Git/Tag",
             "version" : "1.121820"
          },
          {
             "class" : "Dist::Zilla::Plugin::Git::Push",
-            "name" : "@SCHWIGON/@Git/Push",
+            "name" : "@Filter/@Git/Push",
             "version" : "1.121820"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::UploadToCPAN",
+            "name" : "UploadToCPAN",
+            "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ManifestSkip",
