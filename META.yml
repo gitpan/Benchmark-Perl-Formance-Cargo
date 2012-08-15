@@ -22,7 +22,7 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Benchmark-Perl-Formance-Cargo
   homepage: http://metacpan.org/release/Benchmark-Perl-Formance-Cargo
   repository: git://github.com/renormalist/Benchmark-Perl-Formance-Cargo.git
-version: 0.04
+version: 0.05
 x_Dist_Zilla:
   plugins:
     -
@@ -153,10 +153,6 @@ x_Dist_Zilla:
       class: Dist::Zilla::Plugin::Git::Push
       name: '@SCHWIGON/@Git/Push'
       version: 1.121820
-    -
-      class: Dist::Zilla::Plugin::UploadToCPAN
-      name: UploadToCPAN
-      version: 4.300020
     -
       class: Dist::Zilla::Plugin::ManifestSkip
       name: ManifestSkip

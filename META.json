@@ -46,7 +46,7 @@
          "web" : "http://github.com/renormalist/Benchmark-Perl-Formance-Cargo"
       }
    },
-   "version" : "0.04",
+   "version" : "0.05",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -208,11 +208,6 @@
             "class" : "Dist::Zilla::Plugin::Git::Push",
             "name" : "@SCHWIGON/@Git/Push",
             "version" : "1.121820"
-         },
-         {
-            "class" : "Dist::Zilla::Plugin::UploadToCPAN",
-            "name" : "UploadToCPAN",
-            "version" : "4.300020"
          },
          {
             "class" : "Dist::Zilla::Plugin::ManifestSkip",
