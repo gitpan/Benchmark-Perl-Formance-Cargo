@@ -13,6 +13,11 @@
       "version" : "2"
    },
    "name" : "Benchmark-Perl-Formance-Cargo",
+   "no_index" : {
+      "directory" : [
+         "share"
+      ]
+   },
    "prereqs" : {
       "configure" : {
          "requires" : {
@@ -46,9 +51,14 @@
          "web" : "http://github.com/renormalist/Benchmark-Perl-Formance-Cargo"
       }
    },
-   "version" : "0.06",
+   "version" : "0.07",
    "x_Dist_Zilla" : {
       "plugins" : [
+         {
+            "class" : "Dist::Zilla::Plugin::MetaNoIndex",
+            "name" : "MetaNoIndex",
+            "version" : "4.300020"
+         },
          {
             "class" : "Dist::Zilla::Plugin::GatherDir",
             "name" : "@Filter/@Basic/GatherDir",
